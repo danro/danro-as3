@@ -39,12 +39,13 @@ package net.danro.utils
 			{
 				var lastObject:* = this._punchlist[0];
 				this._punchlist = [];
+				var length:int = 0;
 				if (this._repeating) {
 					var testObject:*;
 					var newList:Array = this._collection.slice();
 					for each (testObject in newList)
 					{
-						if (testObject != lastObject) this._punchlist.push(testObject);
+						if (testObject != lastObject) this._punchlist[length++] = testObject;
 					}
 				}
 				return lastObject;
