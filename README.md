@@ -2,5 +2,5 @@
 
 Personal library of AS3 utils and base classes.
 
-http://danro.net
+[http://danro.net]
 
