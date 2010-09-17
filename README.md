@@ -1,4 +1,4 @@
-package: net.danro
+`package net.danro`
 
 Personal library of AS3 utils and base classes.
 
